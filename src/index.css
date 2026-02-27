@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-brand-yellow: #FFC300;
+  --color-brand-black: #000000;
+  --color-brand-dark: #0A0A0A;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-brand-black text-white font-sans antialiased;
+  }
+
+  section {
+    scroll-margin-top: 80px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.yellow-gradient {
+  background: linear-gradient(135deg, #FFC300 0%, #E6B000 100%);
+}
+
+.text-gradient-yellow {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-yellow to-yellow-500;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-brand-black;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-brand-yellow/30 rounded-full hover:bg-brand-yellow/50 transition-colors;
+}
