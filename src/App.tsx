@@ -142,7 +142,7 @@ const Hero = () => {
           viewport={{ once: true }}
         >
           <span className="inline-block py-1 px-3 rounded-full bg-brand-yellow/10 border border-brand-yellow/20 text-brand-yellow text-xs font-bold uppercase tracking-widest mb-6">
-            A melhor escola de música de RP
+            A melhor escola de música do RIO
           </span>
           <h1 className="text-5xl md:text-7xl font-display font-extrabold leading-[1.1] mb-6">
             Sua jornada <br />
