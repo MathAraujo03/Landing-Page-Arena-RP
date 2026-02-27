@@ -1,0 +1,5 @@
+{
+  "name": "Arena RP - Escola de Música",
+  "description": "Landing page moderna e persuasiva para a Escola de Música Arena RP, focada em conversão e excelência musical.",
+  "requestFramePermissions": ["geolocation"]
+}
