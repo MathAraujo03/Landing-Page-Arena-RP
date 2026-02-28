@@ -54,12 +54,13 @@ const Navbar = () => {
           className="flex items-center gap-2 cursor-pointer group" 
           onClick={scrollToTop}
         >
-          <img
-  src={logoArena}
-  alt="Arena RP"
-  className="h-33 object-contain transition-transform group-hover:scale-110"
-/>
+         <img
+            src={logoArena}
+            alt="Arena RP"
+            className="h-33 object-contain transition-transform group-hover:scale-110"
+          />
         </div>
+
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
