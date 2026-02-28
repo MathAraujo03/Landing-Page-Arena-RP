@@ -437,6 +437,8 @@ const Contact = () => {
                     <option className="bg-brand-dark">Bateria</option>
                     <option className="bg-brand-dark">Violão</option>
                     <option className="bg-brand-dark">Canto</option>
+                    <option className="bg-brand-dark">Teclado</option>
+                    <option className="bg-brand-dark">Musicalização</option>
                   </select>
                 </div>
                 <textarea 
