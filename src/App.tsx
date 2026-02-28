@@ -470,14 +470,14 @@ const Location = () => {
     {
       title: "Polo I - Bangu",
       address: "Rua Rio da Prata, 1674 - Bangu, Rj",
-      phone: "(21) 99999-9999",
+      phone: "(21) 991755665",
       hours: "Seg a Sex: 09h às 21h • Sáb: 09h às 14h",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3676.244365445217!2d-43.469!3d-22.876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDUyJzMzLjYiUyA0M8KwMjgnMDguNCJX!5e0!3m2!1spt-BR!2sbr!4v1625000000000!5m2!1spt-BR!2sbr"
     },
     {
       title: "Polo II - Ilha do Governador",
       address: "Freguesia - Ilha, RJ",
-      phone: "(21) 88888-8888",
+      phone: "(21) 991755665",
       hours: "Seg a Sex: 09h às 21h • Sáb: 09h às 14h",
       map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.5!2d-43.2!3d-22.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDQ4JzAwLjAiUyA0M8KwMTInMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1625000000000!5m2!1spt-BR!2sbr"
     }
