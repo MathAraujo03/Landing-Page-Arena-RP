@@ -20,7 +20,6 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect } from 'react';
-import logoArena from './assets/img/LOGO.png';
 
 // --- Components ---
 
@@ -53,11 +52,12 @@ const Navbar = () => {
           className="flex items-center gap-2 cursor-pointer group" 
           onClick={scrollToTop}
         >
-         <img
-            src={logoArena}
-            alt="Arena RP"
-            className="h-33 object-contain transition-transform group-hover:scale-110"
-          />
+          <div className="w-10 h-10 bg-brand-yellow rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+            <Music className="text-black w-6 h-6" />
+          </div>
+          <span className="text-xl font-display font-bold tracking-tighter">
+            ARENA<span className="text-brand-yellow">RP</span>
+          </span>
         </div>
 
         {/* Desktop Menu */}
