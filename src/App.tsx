@@ -72,7 +72,7 @@ const Navbar = () => {
             </a>
           ))}
           <a 
-            href="https://wa.me/5516999999999" 
+            href="https://wa.me/5521991755665" 
             target="_blank"
             className="bg-brand-yellow text-black px-5 py-2.5 rounded-full text-sm font-bold hover:scale-105 transition-transform active:scale-95"
           >
@@ -107,7 +107,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a 
-                href="https://wa.me/5516999999999" 
+                href="https://wa.me/5521991755665" 
                 className="bg-brand-yellow text-black p-4 rounded-xl text-center font-bold"
               >
                 Agende uma Aula Experimental
@@ -360,8 +360,8 @@ const Testimonials = () => {
 
 const Contact = () => {
   const polos = [
-    { name: "Polo I - Bangu", phone: "5521999999999", address: "Rua Rio da Prata, 1674 - Bangu, Rj" },
-    { name: "Polo II - Ilha do Governador", phone: "5521888888888", address: "Freguesia - Ilha, RJ" }
+    { name: "Polo I - Bangu", phone: "5521991755665", address: "Rua Rio da Prata, 1674 - Bangu, Rj" },
+    { name: "Polo II - Ilha do Governador", phone: "5521991755665", address: "Freguesia - Ilha, RJ" }
   ];
 
   return (
