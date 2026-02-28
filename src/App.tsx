@@ -602,7 +602,7 @@ const ScrollToTop = () => {
           exit={{ opacity: 0, scale: 0.5 }}
           whileHover={{ opacity: 1, scale: 1.1 }}
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-brand-yellow text-black rounded-full flex items-center justify-center shadow-2xl transition-all"
+          className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-brand-yellow text-black rounded-full flex items-center justify-center shadow-2xl transition-all cursor-pointer"
           aria-label="Voltar ao topo"
         >
           <ChevronUp className="w-6 h-6" />
