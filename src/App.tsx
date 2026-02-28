@@ -20,9 +20,10 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect } from 'react';
+
 import logoArena from './assets/img/LOGO.png';
 
-// --- Components --- 
+// --- Components ---
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
