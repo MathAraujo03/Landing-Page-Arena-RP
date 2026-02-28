@@ -56,7 +56,7 @@ const Navbar = () => {
           <img
             src={logoArena}
             alt="Arena RP"
-            className="h-33 object-contain transition-transform group-hover:scale-110"
+            className="h-32 object-contain transition-transform group-hover:scale-110"
           />
         </div>
 
