@@ -161,7 +161,7 @@ const Hero = () => {
               Agende Aula Experimental
             </a>
             <a 
-              href="https://wa.me/5516999999999" 
+              href="https://wa.me/5521991755665" 
               className="border border-white/20 hover:bg-white/5 px-8 py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition-all"
             >
               <MessageCircle className="w-5 h-5 text-brand-yellow" />
