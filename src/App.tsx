@@ -20,6 +20,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect } from 'react';
+import logoArena from './assets/img/LOGO.png';
 
 // --- Components ---
 
@@ -48,16 +49,15 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-brand-black/90 backdrop-blur-md py-4 border-b border-white/10' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <div 
-          className="flex items-center gap-2 cursor-pointer group" 
+        <div
+          className="flex items-center gap-2 cursor-pointer group"
           onClick={scrollToTop}
         >
-          <div className="w-10 h-10 bg-brand-yellow rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
-            <Music className="text-black w-6 h-6" />
-          </div>
-          <span className="text-xl font-display font-bold tracking-tighter">
-            ARENA<span className="text-brand-yellow">RP</span>
-          </span>
+          <img
+            src={logoArena}
+            alt="Arena RP"
+            className="h-33 object-contain transition-transform group-hover:scale-110"
+          />
         </div>
 
         {/* Desktop Menu */}
